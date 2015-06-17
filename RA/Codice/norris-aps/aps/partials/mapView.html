@@ -1,0 +1,9 @@
+<div id="map_canvas" ng-controller="mapChartController">
+ 	<map ng-attr-center="45.407174, 11.877397" ng-attr-zoom="12" disable-default-u-i="true"> </map>
+ 	<div id="mapLegend" ng-hide="!showLegend">
+  	<div class="legendLine" ng-repeat="item in legendItems">
+  		<div class="mapLegendColor" ng-style="{'background-color':item.color}"></div>
+  		<span ng-bind="item.name"></span>
+  	</div> 
+  </div>
+</div>

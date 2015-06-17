@@ -1,0 +1,19 @@
+<div class="logoBlock">
+	<img src="aps/res/logoAps.png" class="logo"> 
+	<h1 class="headerTitle">APS Mobilità</h1>
+</div>
+<div class="dropBlock">
+	<h4 class="text-center drop">Seleziona la linea</h4>
+	<ui-select class="dropSelect" ng-model="graphs.selected" theme="bootstrap" reset-search-input="false" style="width: 300px;">
+    <ui-select-match placeholder="Seleziona una linea">{{$select.selected.title}}</ui-select-match>
+    <ui-select-choices repeat="graph in graphs">
+      <div ng-bind-html="graph.title"></div>
+    </ui-select-choices>
+  </ui-select>
+
+	<!--				
+	<select class="lineSelect" ng-model="activeLine" ng-options="graph.title for graph in graphs" ng-change="update()">
+		<option value="">-- Seleziona la linea --</option>
+	</select> 
+	-->
+</div>

@@ -1,0 +1,106 @@
+html,body{
+  height:97%;
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container-fluid{
+	height: 84%;
+  margin: 0;
+  padding: 0;
+}
+
+.header-aps{
+	margin: 0;
+	margin-top:10px;
+}
+
+.headerTitle{
+	display: inline-block;
+}
+
+.dropBlock, .logoBlock , .drop, .dropSelect{
+	display:inline-block;
+}
+
+.dropBlock{
+	padding: 10px;
+}
+
+.logoBlock{
+	padding-right: 5px;
+}
+
+.drop, .dropSelect {
+	padding:0 5px;
+}
+
+.logo{
+	 display: inline-block;
+	 padding-right: 0.4em;
+	 height: 80px;
+}
+
+.map-column{
+	height: 100%;
+  margin: 0;
+  padding: 20px 50px;
+}
+
+#map_canvas{
+	height: 100%;
+}
+
+map{
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.mapLegendColor{
+	width: 10px;
+	height: 10px;
+	display:inline-block;
+}
+
+#mapLegend{
+  background: rgba(255,255,255,0.7);
+  padding: 1em;
+  margin: 10px;
+  border: 2px solid #00685F;
+}
+
+.table-column{
+	text-align:center;
+	padding:0;
+}
+
+.tableWrapper {
+	margin: auto;
+	text-align: center;
+	padding: 20px 5%;
+}
+
+.tableTitle{
+	margin:auto;
+	padding: 15px 0 8px;
+	text-align: center;
+	font-family: Arial;
+	font-size:13;
+	font-weight:bold;
+}
+
+.mrkLa{
+	color: white;
+  font-size: 10px;
+  text-align: center;
+  font-weight:900;
+  white-space: nowrap;
+}
+
+.autowrap{
+	width: 90%;
+	display:inline-block;
+}

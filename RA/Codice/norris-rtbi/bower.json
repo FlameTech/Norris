@@ -1,0 +1,67 @@
+{
+  "name": "norris-rtbi-frontend",
+  "version": "1.0.0",
+  "description": "A built-in AngularJS frontend for Norris, which displays charts made with Norris framework in a no-frills way, without the need to be configured. Real-time updates are obtained through Socket.io library, avoiding expensive polling operations.",
+  "contributors": [
+    {
+      "name": "Cardin Andrea",
+      "email": "andrea.cardin.3@studenti.unipd.it"
+    },
+    {
+      "name": "Faggin Andrea",
+      "email": "andrea.faggin.2@studenti.unipd.it"
+    },
+    {
+      "name": "Meneguzzo Francesco",
+      "email": "francesco.meneguzzo@studenti.unipd.it"
+    },
+    {
+      "name": "Merlo Gianluca",
+      "email": "gianluca.merlo.1@studenti.unipd.it"
+    },
+    {
+      "name": "Persegona Mattia",
+      "email": "mattia.persegona@studenti.unipd.it"
+    },
+    {
+      "name": "Sartor Michele",
+      "email": "michele.sartor.2@studenti.unipd.it"
+    },
+    {
+      "name": "Zanetti Davide",
+      "email": "davide.zanetti.2@studenti.unipd.it"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FlameTech/Norris-rtbi.git"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.3.15",
+    "socket.io-client": "1.3.0",
+    "json3": "^3.3.x",
+    "es5-shim": "~2.1.x",
+    "jquery": "^1.11.x",
+    "jquery-ui": "^1.11.x",
+    "angular-resource": "~1.3.x",
+    "angular-ui-sortable": "~0.13.x",
+    "bootstrap": "~3.3.x",
+    "angular-google-chart": "latest",
+    "ngmap": "~1.7.10"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.3.x"
+  },
+  "resolutions": {
+    "angular": "^1.3.15"
+  }
+}

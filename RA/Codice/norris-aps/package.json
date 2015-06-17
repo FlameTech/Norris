@@ -1,0 +1,74 @@
+{
+  "name": "norris-aps",
+  "version": "0.9.0",
+  "private": true,
+  "description": "Norris-APS is a project generated with the Norris framework, to quickly show how a project should be created.",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "postinstall": "bower install"
+  },
+  "contributors": [
+    {
+      "name": "Cardin Andrea",
+      "email": "andrea.cardin.3@studenti.unipd.it"
+    },
+    {
+      "name": "Faggin Andrea",
+      "email": "andrea.faggin.2@studenti.unipd.it"
+    },
+    {
+      "name": "Meneguzzo Francesco",
+      "email": "francesco.meneguzzo@studenti.unipd.it"
+    },
+    {
+      "name": "Merlo Gianluca",
+      "email": "gianluca.merlo.1@studenti.unipd.it"
+    },
+    {
+      "name": "Persegona Mattia",
+      "email": "mattia.persegona@studenti.unipd.it"
+    },
+    {
+      "name": "Sartor Michele",
+      "email": "michele.sartor.2@studenti.unipd.it"
+    },
+    {
+      "name": "Zanetti Davide",
+      "email": "davide.zanetti.2@studenti.unipd.it"
+    }
+  ],
+  "dependencies": {
+    "norris-rtbi": "^1.0.x",
+    "bower": "^1.4.x",
+    "ejs": "^2.3.x",
+    "express": "^4.12.x",
+    "hashmap": "^2.0.3",
+    "socket.io": "1.3.0",
+    "request": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FlameTech/Norris.git"
+  },
+  "keywords": [
+    "norris",
+    "aps",
+    "buses",
+    "javascript",
+    "node",
+    "rtbi",
+    "real-time",
+    "heroku",
+    "express"
+  ],
+  "author": "FlameTech Inc. <flametech.inc@gmail.com> (http://flametech.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlameTech/Norris/issues"
+  },
+  "homepage": "http://flametech.github.io/",
+  "engines": {
+    "node": "0.12.x"
+  }
+}
